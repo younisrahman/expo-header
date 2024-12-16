@@ -1,0 +1,37 @@
+{
+  "name": "expo-header",
+  "version": "1.0.0",
+  "description": "A full functional Header for React Native",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:younisrahman/expo-header.git"
+  },
+  "keywords": [
+    "Header",
+    "App Header",
+    "React Native Header",
+    "React Native App Header",
+    "Expo Header",
+    "Expo App Header"
+  ],
+  "author": "Younis Rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/younisrahman/expo-header/issues"
+  },
+  "homepage": "https://github.com/younisrahman/expo-header#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "lib/**/*",
+    "README.md"
+  ]
+}
